@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOM FRM D SUN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #eee;
+      padding: 20px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 { color: #ffb347; }
+    .post {
+      background: #1a1a1a;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 10px;
+      border-left: 4px solid #ffb347;
+    }
+  </style>
+</head>
+<body>
+  <h1>SOM FRM D SUN ☀️</h1>
+  <p>Broadcasting live from <em>Lagos, Nigeria</em> ☀️</p>
+  <p>What will you like to know about Son from the Sun?</p>
+  
+  <div class="post">
+    <h2>Post #1: Born Hot</h2>
+    <p>The sun doesn’t apologize for burning. Neither do I. This blog is for raw thoughts, real talk, and heat that doesn’t melt under pressure.</p>
+  </div>
+  <div id="map" style="height:300px; margin-top:20px; border-radius:10px;"></div>
+<p id="location"></p>
+<script>
+if(navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(function(pos) {
+    let lat = pos.coords.latitude;
+    let lon = pos.coords.longitude;
+    document.getElementById("location").innerText = "Lat: " + lat + " Lon: " + lon;
+  });
+} else {
+  document.getElementById("location").innerText = "Location not supported";
+}
+</script>
+</body>
+</html>
+<div class="post">
+  <h2>post #2:son from the sun is the same person as RUGGED B LYT</h2>
+  <p><i>This is my personal blog website and it all about my music life style and career</i></p>
+ </div> 
+
+<div class="post">
+  <h2>post #3: About Rugged B lyt</h2>
+  <p><i>my name is Rufai ibrahim babatunde, i was born and raised in ijegun,Alimosho local government Area </i></p>
+ </div> 
